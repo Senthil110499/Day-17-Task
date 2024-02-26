@@ -1,0 +1,59 @@
+.card {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.stars {
+  font-size: 30px;
+}
+
+#stars {
+  cursor: pointer;
+}
+
+.stars:hover,
+.star1,
+.star2,
+.star3,
+.star4 {
+  color: gold;
+}
+
+.star5 {
+  color: grey;
+}
+
+.stock {
+  color: red;
+}
+
+.h-10 {
+  height: 100px;
+  background-color: rgb(250, 248, 248);
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.remove {
+  color: red;
+}
+
+.price,
+.qty {
+  font-size: 20px;
+}
+
+.btn{
+  justify-content: flex-end;
+}
+
+.collapse navbar-collapse{
+  justify-content: space-between;
+}
